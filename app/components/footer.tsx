@@ -1,5 +1,4 @@
 import { ArrowRightIcon } from 'lucide-react';
-import Link from 'next/link';
 
 import { PORTAL_LOGO, PORTAL_PHONE } from '@/lib/constants';
 

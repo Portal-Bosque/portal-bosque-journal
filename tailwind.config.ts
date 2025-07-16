@@ -17,6 +17,10 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-geist-sans)"],
         mono: ["var(--font-geist-mono)"],
+        serif: ["Georgia", "serif"],
+      },
+      colors: {
+        green: "#2F5233", // Portal Bosque green color
       },
     },
   },

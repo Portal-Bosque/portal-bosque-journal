@@ -20,6 +20,9 @@ importers:
       geist:
         specifier: 1.2.2
         version: 1.2.2(next@15.3.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+      lucide-react:
+        specifier: ^0.525.0
+        version: 0.525.0(react@19.0.0)
       next:
         specifier: 15.3.3
         version: 15.3.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -1664,6 +1667,11 @@ packages:
   lru-cache@11.1.0:
     resolution: {integrity: sha512-QIXZUBJUx+2zHUdQujWejBkcD9+cs94tLn0+YL8UrCh+D5sCXZ4c7LaEH48pNwRY3MLDgqUFyhlCyjJPf1WP0A==}
     engines: {node: 20 || >=22}
+
+  lucide-react@0.525.0:
+    resolution: {integrity: sha512-Tm1txJ2OkymCGkvwoHt33Y2JpN5xucVq1slHcgE6Lk0WjDfjgKWor5CdVER8U6DvcfMwh4M8XxmpTiyzfmfDYQ==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   mdast-util-from-markdown@2.0.1:
     resolution: {integrity: sha512-aJEUyzZ6TzlsX2s5B4Of7lN7EQtAxvtradMMglCQDyaTFgse6CmtmdJ15ElnVRlCg1vpNyVtbem0PWzlNieZsA==}
@@ -4173,6 +4181,10 @@ snapshots:
   lru-cache@10.2.0: {}
 
   lru-cache@11.1.0: {}
+
+  lucide-react@0.525.0(react@19.0.0):
+    dependencies:
+      react: 19.0.0
 
   mdast-util-from-markdown@2.0.1:
     dependencies:

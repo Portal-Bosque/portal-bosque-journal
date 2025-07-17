@@ -1,6 +1,6 @@
-# A statically generated blog example using Next.js and BaseHub
+# Aprendizaje combinando naturaleza, tecnología y cultura
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs) feature using [BaseHub](https://basehub.com/) as the data source.
+Este blog muestra el aprendizaje combinando naturaleza, tecnología y cultura usando Next.js y BaseHub como fuente de datos.
 
 ## Demo
 

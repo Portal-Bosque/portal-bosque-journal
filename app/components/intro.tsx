@@ -7,25 +7,7 @@ export function Intro() {
         Blog.
       </h1>
       <h2 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A statically generated blog example using{" "}
-        <a
-          href="https://nextjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline hover:text-orange-500 duration-200 transition-colors"
-        >
-          Next.js
-        </a>{" "}
-        and{" "}
-        <a
-          href={CMS_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline hover:text-orange-500 duration-200 transition-colors"
-        >
-          {CMS_NAME}
-        </a>
-        .
+        Aprendizaje combinando naturaleza, tecnología y cultura
       </h2>
     </section>
   );

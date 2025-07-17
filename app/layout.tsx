@@ -7,8 +7,8 @@ import { CMS_NAME } from "@/lib/constants";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: `Next.js and ${CMS_NAME} Example`,
-  description: `This is a blog built with Next.js and ${CMS_NAME}.`,
+  title: `Portal Bosque Blog`,
+  description: `Aprendizaje combinando naturaleza, tecnología y cultura`,
 };
 
 export default function RootLayout({

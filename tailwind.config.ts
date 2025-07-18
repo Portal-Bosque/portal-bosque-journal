@@ -26,8 +26,10 @@ const config: Config = {
         '5xl': '2.60rem'
       },
       fontFamily: {
-        sans: ['var(--font-inter)'],
-        serif: ['var(--font-pt-serif)'],
+        sans: ['var(--font-inter)', 'Inter', 'sans-serif'],
+        serif: ['var(--font-pp-editorial)', 'PP Editorial New', 'serif'],
+        inter: ['var(--font-inter)', 'Inter', 'sans-serif'],
+        'pp-editorial': ['var(--font-pp-editorial)', 'PP Editorial New', 'serif'],
         montiac: ['var(--font-montiac)', 'sans-serif'],
         openSans: ['Open Sans', 'sans-serif']
       },

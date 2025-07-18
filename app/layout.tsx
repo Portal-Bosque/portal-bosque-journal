@@ -32,7 +32,26 @@ const ppEditorialNew = localFont({
 
 export const metadata: Metadata = {
   title: `Portal Bosque Lab`,
-  description: `Aprendizaje combinando naturaleza, tecnología y cultura`,
+  description: `Aprendizajes educativos experimentando con naturaleza, tecnología y artes en Portal Bosque`,
+  openGraph: {
+    title: `Portal Bosque Lab`,
+    description: `Aprendizajes educativos experimentando con naturaleza, tecnología y artes en Portal Bosque`,
+    images: [
+      {
+        url: '/hero-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Portal Bosque Lab',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `Portal Bosque Lab`,
+    description: `Aprendizajes educativos experimentando con naturaleza, tecnología y artes en Portal Bosque`,
+    images: ['/hero-og.jpg'],
+  },
 };
 
 export default function RootLayout({
